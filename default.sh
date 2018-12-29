@@ -11,7 +11,7 @@ id=$3
 value=$4
 
 log_unhandled() {
-	logger "ACPI event unhandled: $*"
+	# logger "ACPI event unhandled: $*"
 }
 
 case "$group" in
